@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>SnakeSS</title>
+</head>
+<body>
+
+    <div class="score">PONTUAÇÃO: <span class="score--value">00</span></div>
+
+    <div class="menu-screen">
+        <span class="game-over">game over</span>
+        <span class="final-score">score <span>00</span></span>
+
+        <button class="btn-play">
+            <span class="material-symbols-outlined">
+                play_circle
+            </span>
+            
+            Jogar novamente
+        </button>
+    </div>
+
+    <form name="form_main">
+        <div>
+          <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>:<span id="millisecond">000</span>
+        </div>
+      
+        <br />
+      
+        <button type="button" name="start">start</button>
+        <button type="button" name="pause">pause</button>
+        <button type="button" name="reset">reset</button>
+      </form>
+
+    <canvas width="600" height="600"></canvas>
+        <script src="script.js"></script>
+        <script src="cronus.js"></script>
+
+
+
+
+
+    
+</body>
+</html>
