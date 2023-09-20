@@ -1,2 +1,2 @@
 # SnakeSS
- NokiaMobile v1.0
+ MobileNokia v1.0
